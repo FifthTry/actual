@@ -109,11 +109,6 @@ weight: 700
 
 
 
-
-
-
-
-
 -- ds.page:
 
 --- show-resume:
@@ -171,6 +166,7 @@ resume: $resume
 --- show-card-mobile:
 if:  $is-mobile
 resume: $resume
+
 
 
 
@@ -294,7 +290,6 @@ $loop$: $resume.language as $obj
 
 
 
-
 -- ftd.column show-card-mobile:
 padding-horizontal: $fpm.space.space-6
 padding-top: $fpm.space.space-6
@@ -399,7 +394,6 @@ height: fill
 fluency: $obj.fluency
 language: $obj.language
 $loop$: $resume.language as $obj
-
 
 
 
@@ -698,7 +692,6 @@ summary: $summary
 
 
 
-
 -- ftd.row work-card-data-desktop:
 optional caption name:
 optional string position:
@@ -770,7 +763,6 @@ if: $summary is not null
 width:fill
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
-
 
 
 
@@ -862,8 +854,6 @@ color: $fpm.color.main.text
 
 
 
-
-
 -- ftd.row work-hightlights:
 caption title:
 color: $fpm.color.main.text
@@ -921,7 +911,6 @@ area: $area
 startDate: $startDate
 endDate: $endDate
 score: $score
-
 
 
 
@@ -1020,6 +1009,11 @@ role: $fpm.type.fine-print
 if: $score is not null
 role: $fpm.type.fine-print
 color: $fpm.color.main.text
+
+
+
+
+
 
 
 
