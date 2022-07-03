@@ -253,12 +253,12 @@ name: $obj.name
 keyword: $obj.keywords
 $loop$: $resume.skill as $obj
 
-
 --- container: skill-container
 
 --- ftd.column:
 width: fill
 height: fill
+
 --- heading: ACHEIVEMENTS
 
 --- acheivement-card-data:
@@ -268,12 +268,12 @@ awarder:  $obj.awarder
 summary: $obj.summary
 $loop$: $resume.award as $obj
 
-
 --- container: skill-container
 
 --- ftd.column:
 width: fill
 height: fill
+
 --- heading: LANGUAGES
 
 --- language-card-data:
@@ -373,6 +373,7 @@ $loop$: $resume.skill as $obj
 --- ftd.column:
 width: fill
 height: fill
+
 --- heading: ACHEIVEMENTS
 
 --- acheivement-card-data:
@@ -382,12 +383,12 @@ awarder:  $obj.awarder
 summary: $obj.summary
 $loop$: $resume.award as $obj
 
-
 --- container: skill-container
 
 --- ftd.column:
 width: fill
 height: fill
+
 --- heading: LANGUAGES
 
 --- language-card-data:
@@ -1135,6 +1136,14 @@ margin-bottom: $fpm.space.space-3
 name: $obj.name
 level: $obj.level
 $loop$: $keyword as $obj
+
+
+
+
+
+
+
+
 
 
 -- ftd.row keyword-card:
