@@ -1,0 +1,17 @@
+-- import: fifthtry.github.io/actual as actual
+-- import: fifthtry.github.io/resume/sample as s
+
+
+
+
+
+
+
+
+
+
+-- ds.page:
+widthfill: true
+
+-- actual.show-resume:
+resume: $s.john-doe
